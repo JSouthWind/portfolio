@@ -1,0 +1,42 @@
+body {
+  font-family: georgia, "times new roman", times, serif; 
+  font-size: 18px;
+  line-height: 1.7em;
+  color: $mainColor;
+  letter-spacing: 1.1px;
+
+}
+img {
+  max-width: 100%;
+  height: auto;
+  
+  .img--bordered {
+    border: 1px solid $secondColor;
+    border-radius: 4px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin-top: 0px;
+}
+
+.font-courier {
+  font-family: courier new;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 100;
+  text-align: center;
+}
+
+a {
+  color: $mainColor;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}

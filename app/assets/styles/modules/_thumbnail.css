@@ -1,0 +1,22 @@
+.thumbnail {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+  padding: 4px;
+  max-width: 350px;
+  
+  img {
+    border: 1px solid #eee;
+    border-radius: 3px;
+  }
+
+  &__text {
+    
+    &--smaller {
+      font-size: 0.9rem;
+      line-height: 1.6em;
+    }
+  }
+
+}

@@ -1,0 +1,13 @@
+.portfolio {
+  
+  &__img {
+    
+    &--dbordered {
+      border: 1px solid $secondColor;
+      border-radius: 4px;
+    }
+  }
+  
+  
+  
+}

@@ -1,0 +1,7 @@
+.page-section {
+  padding: 4.5rem 0;
+  
+  &--gray {
+    background-color: #E2E1E1;
+  }
+}

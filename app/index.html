@@ -6,12 +6,13 @@
   <title>Julia Kuchina | Web Developer | Portfolio </title>
   <meta name="keywords" content="web developer, portfolio, javascript, html5">
   <meta name="description" content="">
+  
     <!-- build:css assets/styles/styles.css -->
     <link rel="stylesheet" href="temp/styles/styles.css" />
     <!-- endbuild -->
 
     <!-- build:js assets/scripts/Vendor.js -->
-    <script src="/temp/scripts/Vendor.js"></script>
+    <script src="temp/scripts/Vendor.js"></script>
     <!-- endbuild -->
 </head>
   
@@ -40,37 +41,46 @@
         </div>
     </div>
   </header>
+  
+  <div class="jumbotron" id="home">
+    <div class="wrapper">
+      <div class="jumbotron__text-content">
+        <h1 class="jumbotron__title">Julia Kuchina</h1>
+        <p class="jumbotron__subtitle font-courier">web developer</p>
 
-  <div id="about">
-    <div class="container text-left">
-      <div class="row">
-        <div class="col-md-9 text-left">
-          <p>I am a web developer with more than three years’ experience in PHP, MySQL, HTML and CSS. My core skills include creating responsive websites. I enjoy writing simple code that is easy to use and maintain. I have a bachelor degree in mathematics and computer science.</p>
-          <br/>
-          <dl class="dl-horizontal">
-            <dt>Languages</dt>
-            <dd>JavaScript, Grails, PHP, SQL</dd>
-            <dt>Client side</dt>
-            <dd>React, JQuery, D3, PostCSS, SASS, Bootstrap, SVG, CSS3, HTML5</dd>
-            <dt>Databases</dt>
-            <dd>MySQL, Oracle DB
-            </dd>
-            <dt>Tools</dt>
-            <dd>Webpack, Gulp, Git, SVN, Jira, IntelliJ IDEA, Brackets, Sublime, cPanel, Photoshop</dd>
-          </dl>
-        </div>
-        <div class="col-md-3">
-          <img src="https://www.dropbox.com/s/a7ovw8tvcx9bghx/10355863_963197247031095_927884276883262042_n.jpg?dl=0&raw=1" alt="" class="img-circle img-responsive" style="width: 200px; height: 200px;" />
+        <div class="btn-group">
+          <a class="btn-group__btn" href="https://www.facebook.com/yulia.kuchina.9" target="blank"><i class="fa fa-facebook"></i></a>
+          <a href="https://twitter.com/Yulia_Kuchina" target="blank" class="btn-group__btn" ><i class="fa fa-twitter"></i></a>
+          <a href="https://au.linkedin.com/in/yulia-kuchina-84924431" target="blank" class="btn-group__btn"><i class="fa fa-linkedin"></i></a>
+          <a href="mailto:kuchina@gmail.com" class="btn-group__btn">kuchina@gmail.com</a>
         </div>
       </div>
     </div>
   </div>
+
+  <div class="page-section about" id="about">
+    <div class="wrapper">
+      <img class="about__img" src="assets/images/me.jpeg" alt="My photo" />
+     
+      <p class="font-courier">
+        <strong>Languages: </strong>JavaScript, Grails, PHP, SQL<br/>
+        <strong>Client side: </strong>React, JQuery, D3, PostCSS, SASS, Bootstrap, SVG, CSS3, HTML5<br/>
+        <strong>Databases: </strong>MySQL, Oracle DB <br/>
+        <strong>Tools: </strong>Webpack, Gulp, Git, SVN, Jira, IntelliJ IDEA, Brackets, Sublime, cPanel, Photoshop
+      </p>
+      <p class="about--inline-p">I am a web developer with more than <strong>four years’ experience </strong> in PHP, MySQL, HTML and CSS. My core skills include creating responsive websites. I enjoy writing simple code that is easy to use and maintain. I have a bachelor degree in mathematics and computer science.</p>
+      </div>
+    </div>
   <!-- End About -->
 
   <!-- Portfolio -->
-  <div class="portfolio">
-    <div class="container text-center" id="portfolio">
-
+  <div class="page-section page-section--gray portfolio">
+    <div class="wrapper" id="portfolio">
+      <h1 class="text-default"> Portfolio </h1> 
+      <div class="row row--gutters-small row--equal-height-at-medium row--b-padding row--t-padding"> 
+        
+        
+      </div>
     </div>
   </div>
   <!-- End Portfolio -->
@@ -87,7 +97,7 @@
     </div>
   </footer>
     <!-- build:js assets/scripts/App.js -->
-    <script src="/temp/scripts/App.js"></script>
+    <script src="temp/scripts/App.js"></script>
     <!-- endbuild -->
     </body>
 </html>
