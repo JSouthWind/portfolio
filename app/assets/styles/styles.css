@@ -6,11 +6,12 @@
 @import "modules/_page-section";
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css";
 @import "modules/_jumbotron";
-@import "modules/_btn-group";
+@import "modules/_btn";
 @import "modules/_row";
 @import "modules/_about";
-@import "modules/_portfolio";
 @import "modules/_thumbnail";
-
+@import "modules/_site-header";
+@import "modules/_primary-nav";
+@import "modules/_site-footer";
 
 
