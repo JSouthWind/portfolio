@@ -1,4 +1,4 @@
-//import MobileMenu from './modules/MobileMenu';
+import MobileMenu from './modules/MobileMenu';
 //import RevealOnScroll from './modules/RevealOnScroll';
 import $ from 'jquery';
 //import StickyHeader from './modules/StickyHeader';
@@ -6,7 +6,7 @@ import $ from 'jquery';
 import Portfolio from './modules/Portfolio';
 
 
-//var mobileMenu = new MobileMenu();
+var mobileMenu = new MobileMenu();
 //new RevealOnScroll($('.feature-item'), "85%");
 //new RevealOnScroll($('.testimonial'), "60%");
 //var stickyHeader = new StickyHeader();

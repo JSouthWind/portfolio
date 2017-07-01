@@ -8,22 +8,21 @@ class Portfolio {
 
   insertPortfolio(){
     projects.map(function(item){
-      $("#portfolio > div").append(`<div class="row__small-4 row__medium-4">
-          <a href=${item.link} target="blank">
+      $("#projects > div").append(`<div class="row__4 row__6 row--b-margin-until-medium">
+          
             <div class="thumbnail">
-              <img src=${item.image +'&raw=1'} alt="${item.title}" class="" />
+              <a href=${item.link} target="blank">
+              <img src=${item.image} alt="${item.title}" class="" />
               <div class="thumbnail__text">
                 <h3>${item.title}</h3>
 <p class="font-courier thumbnail__text--smaller">${item.info}</p>
               </div>
-          </div>
-          </a>
-        </div>`);
-      
-    });
-    
-  }
+</a>
 
+          </div>
+        </div>`);
+    });
+  }
 }
 
 export default Portfolio;

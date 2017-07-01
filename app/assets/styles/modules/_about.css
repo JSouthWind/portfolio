@@ -5,12 +5,18 @@
   
   
   &__img {
-    width: 200px;
-    height: 200px;
-    border: 1px solid #eee;
-    border-radius: 3px;
-    display: inline-block;
-    margin: 0 20px 0 0 ;
-    float: left;
+    
+    margin: 0 0 10px 0;
+    
+    @mixin atSmall {
+      width: 200px;
+      height: 200px;
+      border: 1px solid #eee;
+      border-radius: 3px;
+      display: inline-block;
+      margin: 7px 20px 0 0 ;
+      float: left;
+    }
+    
   }
 }
