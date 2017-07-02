@@ -27,10 +27,18 @@
       float: left;
       display: block;
     }
+    
+    
   }
 
   li:last-child {
     ppadding-right: 0;
+  }
+  
+  &__li--smaller-padding li{
+    @mixin atMedium {
+      padding: 7px 5px;
+    }
   }
 
   a {
