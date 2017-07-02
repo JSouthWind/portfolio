@@ -22,7 +22,7 @@
     <div class="wrapper">
       <div class="site-header__logo">
         <div class="site-header__logo__graphic icon icon--clear-view-escapes">
-          <img src="assets/images/logo.png">
+          <a href="#" id="home-link"><img src="assets/images/logo.png"></a>
         </div>
       </div>
 
@@ -36,15 +36,15 @@
         </div> 
         <nav class="primary-nav primary-nav--pull-right">
           <ul>
-            <li><a href="#about" id="our-beginnig-link">About</a></li>
-            <li><a href="#projects" id="features-link">Projects</a></li>
+            <li><a href="#about" id="about-link">About</a></li>
+            <li><a href="#projects" id="portfolio-link">Projects</a></li>
           </ul>
         </nav>
       </div>
     </div>
   </header>
   
-  <div class="jumbotron" id="home">
+  <div class="jumbotron page-section" id="home" data-matching-link="#home-link">
     <div class="wrapper">
       <div class="jumbotron__text-content">
         <h1 class="jumbotron__title">Julia Kuchina</h1>
@@ -60,9 +60,9 @@
       </div>
     </div>
 
-  <div class="page-section about" id="about">
+  <div class="page-section about" id="about" data-matching-link="#about-link">
     <div class="wrapper">
-      <img class="about__img" src="assets/images/me.jpeg" alt="My photo" />
+      <img class="about__img lazyload" src="assets/images/me.jpeg" alt="My photo" />
      
       <p class="font-courier">
         <strong>Languages: </strong>JavaScript, Grails, PHP, SQL<br/>
@@ -76,7 +76,7 @@
   <!-- End About -->
 
   <!-- Portfolio -->
-  <div class="page-section page-section--no-b-padding-until-large page-section--gray portfolio">
+  <div class="page-section page-section--no-b-padding-until-large page-section--gray portfolio"  data-matching-link="#portfolio-link" id="portfolio">
     <div class="wrapper wrapper--no-padding-until-medium" id="projects">
       <h1 class="text-default"> Projects </h1> 
       <div class="row row--gutters-small row--equal-height-at-medium row--b-padding row--t-padding row--side-padding-at-medium"> 

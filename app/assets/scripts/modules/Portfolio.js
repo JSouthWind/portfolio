@@ -12,7 +12,7 @@ class Portfolio {
           
             <div class="thumbnail">
               <a href=${item.link} target="blank">
-              <img src=${item.image} alt="${item.title}" class="" />
+<img src=${item.image} alt="${item.title}" class="lazyload" />
               <div class="thumbnail__text">
                 <h3>${item.title}</h3>
 <p class="font-courier thumbnail__text--smaller">${item.info}</p>

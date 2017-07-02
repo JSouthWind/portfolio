@@ -382,7 +382,7 @@ menu {
     margin: 1.5rem 0 0.9rem 0;
   }@media (min-width: 650px){.jumbotron__subtitle {
       font-size: 1.8rem;
-      margin: 2.1rem 0 1.1rem 0
+      margin: 2.3rem 0 1.7rem 0
   }
   }.btn {
   color: #fff;
@@ -394,7 +394,7 @@ menu {
   border-radius: 2px;
 
 }.btn--orange {
-    background-color: #f9a870;
+    background-color: #ff9e5b;
   }.btn:hover {
     text-decoration: none;
   }.btn--large {
@@ -560,7 +560,7 @@ menu {
   transition: background-color .3s ease-out;
 
 }.site-header--is-expanded {
-    background-color: rgba(51,51,51, .55);
+    background-color: rgba(51,51,51, .75);
   }.site-header--is-expanded a {
       padding: 4px 10px;
       margin: 10px;
@@ -592,9 +592,9 @@ menu {
               transform: translateX(0)
   }
 
-      .site-header--dark .site-header__logo {
-        -webkit-transform: scale(.56);
-                transform: scale(.56);
+      .site-header--scroll .site-header__logo {
+        -webkit-transform: scale(.64);
+                transform: scale(.64);
       }
   }@media (min-width: 650px){.site-header__btn-container {
       float: right
@@ -732,7 +732,7 @@ menu {
       background-color: transparent
 
   }
-
+      
       .primary-nav a.is-current-link {
         color: #fabb69;
       }

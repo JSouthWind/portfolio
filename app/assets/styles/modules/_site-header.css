@@ -6,7 +6,7 @@
   transition: background-color .3s ease-out;
 
   &--is-expanded {
-    background-color: rgba($mainColor, .55); 
+    background-color: rgba($mainColor, .75); 
     a {
       padding: 4px 10px;
       margin: 10px;
@@ -37,8 +37,8 @@
       left: auto;
       transform: translateX(0);
 
-      .site-header--dark & {
-        transform: scale(.56);
+      .site-header--scroll & {
+        transform: scale(.64);
       }
     }
   }
