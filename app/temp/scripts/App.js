@@ -11843,7 +11843,15 @@ var Projects = function () {
   info: ''
   },
   */
-  { link: 'https://codepen.io/JKuchina/full/BRVzYp/',
+  { link: 'https://jsouthwind.github.io/data-ui-kit/',
+    image: 'assets/images/data-ui.png',
+    title: 'Mock Goggle Analytics',
+    info: 'Webpack, Gulp, D3, Javascript, PostCss, HTML5, CSS3'
+  }, { link: 'https://jsouthwind.github.io/portfolio/',
+    image: 'assets/images/portfolio.png',
+    title: 'Portfolio',
+    info: 'Webpack, Gulp, Javascript, PostCss, HTML5, CSS3'
+  }, { link: 'https://codepen.io/JKuchina/full/BRVzYp/',
     image: 'assets/images/meteorit.jpg',
     title: 'Map Data Across the Globe',
     info: 'D3, Javascript, Bootstrap, JSON, SVG, CSS. FreeCodeCamp API.'
@@ -11887,10 +11895,6 @@ var Projects = function () {
   }, { link: 'https://codepen.io/JKuchina/full/zZrEKJ/',
     image: 'assets/images/markdown.png',
     title: 'Markdown Previewer',
-    info: 'React, Bootstrap, HTML, CSS'
-  }, { link: 'https://codepen.io/JKuchina/full/dvMRyo/',
-    image: 'assets/images/portfolio.png',
-    title: 'Portfolio',
     info: 'React, Bootstrap, HTML, CSS'
   }, {
     link: 'https://codepen.io/JKuchina/full/vKaPaO/',
