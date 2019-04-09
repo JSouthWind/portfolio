@@ -1,4 +1,4 @@
-var Projects = function() {
+var Projects = function () {
   const projects = [
     /*
   {link: '',
@@ -6,71 +6,84 @@ var Projects = function() {
    title: '',
    info: ''
   },
-   */ 
-    {link: 'https://jsouthwind.github.io/data-ui-kit/',
-     image: 'assets/images/data-ui.png',
-     title: 'Mock Goggle Analytics',
-     info: 'Webpack, Gulp, D3, Javascript, PostCss, HTML5, CSS3'
+   */
+    {
+      link: 'https://bit.ly/2Pvb5qs',
+      image: 'assets/images/solar-app.png',
+      title: 'Anditi Solar App',
+      info: 'React, Redux, Leaflet, D3, Jest, Styled Components'
     },
-    {link: 'https://jsouthwind.github.io/portfolio/',
-     image: 'assets/images/portfolio.png',
-     title: 'Portfolio',
-     info: 'Webpack, Gulp, Javascript, PostCss, HTML5, CSS3'
+    {
+      link: 'https://bit.ly/2YZp5yF',
+      image: 'assets/images/3d-portal.png',
+      title: 'Anditi 3D Portal',
+      info: 'React, Redux, three.js, sparce-octree, Jest, Styled Components'
     },
-    {link: 'https://codepen.io/JKuchina/full/BRVzYp/',
-     image: 'assets/images/meteorit.jpg',
-     title: 'Map Data Across the Globe',
-     info: 'D3, Javascript, Bootstrap, JSON, SVG, CSS. FreeCodeCamp API.'
+    {
+      link: 'https://jsouthwind.github.io/data-ui-kit/',
+      image: 'assets/images/data-ui.png',
+      title: 'Mock Goggle Analytics',
+      info: 'Webpack, Gulp, D3, Javascript, PostCss, HTML5, CSS3'
     },
-    {link: 'https://codepen.io/JKuchina/pen/XREOWg',
-     image: 'assets/images/d3-force-directed.jpg',
-     title: 'D3.js Force Directed Graph',
-     info: 'D3, Javascript, Bootstrap, SVG, CSS. FreeCodeCamp API.'
+    {
+      link: 'https://jsouthwind.github.io/doppler-effect/',
+      image: 'assets/images/doppler-effect.png',
+      title: 'Doppler Effect Visualisation',
+      info: 'Maths, Javascript'
     },
-    {link: 'https://codepen.io/JKuchina/pen/GmOgxJ',
-     image: 'assets/images/d3-heatmap.jpg',
-     title: 'D3.js Heat Map',
-     info: 'D3, Javascript, Bootstrap, SVG, CSS. FreeCodeCamp API.'
+    {
+      link: 'https://jsouthwind.github.io/portfolio/',
+      image: 'assets/images/portfolio.png',
+      title: 'Portfolio',
+      info: 'Webpack, Gulp, Javascript, PostCss, HTML5, CSS3'
     },
-    {link: 'https://codepen.io/JKuchina/pen/vmmpve',
-     image: 'assets/images/d3-scatterplot.jpg',
-     title: 'D3.js Scatterplot Graph',
-     info: 'D3, Javascript, Bootstrap, SVG, CSS. FreeCodeCamp API.'
+    {
+      link: 'https://codepen.io/JKuchina/full/BRVzYp/',
+      image: 'assets/images/meteorit.jpg',
+      title: 'Map Data Across the Globe',
+      info: 'D3, Javascript, Bootstrap, JSON, SVG, CSS. FreeCodeCamp API.'
     },
-    {link: 'https://codepen.io/JKuchina/pen/QvddYJ',
-     image: 'assets/images/d3js-bar-chart.jpg',
-     title: 'Data Visualization with a Bar Chart',
-     info: 'D3, Javascript, Bootstrap, SVG, CSS. NIPA API.'
+    {
+      link: 'https://codepen.io/JKuchina/pen/XREOWg',
+      image: 'assets/images/d3-force-directed.jpg',
+      title: 'D3.js Force Directed Graph',
+      info: 'D3, Javascript, Bootstrap, SVG, CSS. FreeCodeCamp API.'
     },
-    {link: 'https://codepen.io/JKuchina/full/zwBaOM/',
-     image: 'assets/images/gameoflife.jpg',
-     title: 'Game Of Life',
-     info: 'React, Javascript, Bootstrap,HTML, SASS, CSS'
+    {
+      link: 'https://codepen.io/JKuchina/pen/GmOgxJ',
+      image: 'assets/images/d3-heatmap.jpg',
+      title: 'D3.js Heat Map',
+      info: 'D3, Javascript, Bootstrap, SVG, CSS. FreeCodeCamp API.'
     },
-    {link: 'https://codepen.io/JKuchina/pen/RpRzeo',
-     image: 'assets/images/recipebox.jpg',
-     title: 'Recipe Box',
-     info: 'React, Javascript, Bootstrap,HTML, SASS, CSS'
+    {
+      link: 'https://codepen.io/JKuchina/pen/vmmpve',
+      image: 'assets/images/d3-scatterplot.jpg',
+      title: 'D3.js Scatterplot Graph',
+      info: 'D3, Javascript, Bootstrap, SVG, CSS. FreeCodeCamp API.'
     },
-    { link: 'https://aftertax.com.au/',
-     image: 'assets/images/aftertax.png',
-     title: 'AfterTax',
-     info: 'Javascript, jQuery, ChartJS, Bootstrap, HTML, CSS'
-    }, {
-      link: 'https://openwage.com.au/',
-      image: 'assets/images/OpenWage.jpg',
-      title: 'OpenWage',
-      info: 'Grails, ChartJS, Bootstrap, HTML, CSS'
-    }, 
-    {link: 'https://codepen.io/JKuchina/full/Mpebbm/',
-     image: 'assets/images/leaderboard.png',
-     title: 'FreeCodeCamper Leaderboard',
-     info: 'React, Bootstrap, HTML, SASS, CSS'
+    {
+      link: 'https://codepen.io/JKuchina/pen/QvddYJ',
+      image: 'assets/images/d3js-bar-chart.jpg',
+      title: 'Data Visualization with a Bar Chart',
+      info: 'D3, Javascript, Bootstrap, SVG, CSS. NIPA API.'
     },
-    {link: 'https://codepen.io/JKuchina/full/zZrEKJ/',
-     image: 'assets/images/markdown.png',
-     title: 'Markdown Previewer',
-     info: 'React, Bootstrap, HTML, CSS'
+    {
+      link: 'https://codepen.io/JKuchina/full/zwBaOM/',
+      image: 'assets/images/gameoflife.jpg',
+      title: 'Game Of Life',
+      info: 'React, Javascript, Bootstrap,HTML, SASS, CSS'
+    },
+    {
+      link: 'https://codepen.io/JKuchina/pen/RpRzeo',
+      image: 'assets/images/recipebox.jpg',
+      title: 'Recipe Box',
+      info: 'React, Javascript, Bootstrap,HTML, SASS, CSS'
+    },
+    {
+      link: 'https://codepen.io/JKuchina/full/zZrEKJ/',
+      image: 'assets/images/markdown.png',
+      title: 'Markdown Previewer',
+      info: 'React, Bootstrap, HTML, CSS'
     },
     {
       link: 'https://codepen.io/JKuchina/full/vKaPaO/',
@@ -99,6 +112,11 @@ var Projects = function() {
       info: 'Javascript, jQuery, Bootstrap, HTML, CSS'
     }, {
       link: 'https://codepen.io/JKuchina/full/PNJezg/',
+      image: 'assets/images/wiki.jpg',
+      title: 'Wikipedia Search',
+      info: 'Javascript, jQuery, JSON, Bootstrap, HTML, CSS.  Open Weather API, Geolocation API.'
+    }, {
+      link: 'https://codepen.io/JKuchina/full/JXrMEp',
       image: 'assets/images/weatherapp.jpg',
       title: 'Local Weather',
       info: 'Javascript, jQuery, JSON, Bootstrap, HTML, CSS.  Open Weather API, Geolocation API.'
@@ -109,9 +127,9 @@ var Projects = function() {
       info: 'Javascript, jQuery, JSON, Bootstrap, HTML, CSS. Random picture API, random quote API.'
     }
   ];
-  
+
   return projects;
-  
+
 }();
 
 module.exports = Projects;

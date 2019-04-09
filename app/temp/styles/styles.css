@@ -423,7 +423,7 @@ menu {
     padding-right: 100px;
   }.row--gutters-small > div {
     padding-right: 30px;
-  }.row--b-margin-until-medium:not(:last-child) {
+  }.row--b-margin-until-medium {
     margin-bottom: 30px;
   }@media (min-width: 650px){
 
@@ -536,8 +536,7 @@ menu {
     border: 1px solid #ddd;
     border-radius: 4px;
     margin-left: auto;
-    margin-right: auto;
-    mmax-width: 360px
+    margin-right: auto
 
 }
   }.thumbnail img {
