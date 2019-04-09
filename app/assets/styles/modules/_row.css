@@ -34,7 +34,7 @@
     padding-right: 30px;
   }
 
-  &--b-margin-until-medium:not(:last-child) {
+  &--b-margin-until-medium {
     margin-bottom: 30px;
   }
   
