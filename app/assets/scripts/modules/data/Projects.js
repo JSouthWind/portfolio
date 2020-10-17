@@ -8,6 +8,12 @@ var Projects = function () {
   },
    */
     {
+      link: 'https://jsouthwind.github.io/babylonjs-house/',
+      image: 'assets/images/spooky-house.png',
+      title: 'Spooky House',
+      info: 'Babylonjs'
+    },
+    {
       link: 'https://bit.ly/2Pvb5qs',
       image: 'assets/images/solar-app.png',
       title: 'Anditi Solar App',
