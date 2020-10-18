@@ -10,8 +10,8 @@ var Projects = function () {
     {
       link: 'https://jsouthwind.github.io/babylonjs-house/',
       image: 'assets/images/spooky-house.png',
-      title: 'Spooky House',
-      info: 'Babylonjs'
+      title: '3D Spooky House',
+      info: 'Babylon.js, Typescript'
     },
     {
       link: 'https://bit.ly/2Pvb5qs',
