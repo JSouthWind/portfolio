@@ -14,6 +14,12 @@ var Projects = function () {
       info: 'Babylon.js, Typescript'
     },
     {
+      link: 'https://jsouthwind.github.io/credit-card-checker/',
+      image: 'assets/images/card-checker.png',
+      title: 'Credit Card Checker',
+      info: 'React, styled-components'
+    },
+    {
       link: 'https://bit.ly/2Pvb5qs',
       image: 'assets/images/solar-app.png',
       title: 'Anditi Solar App',
